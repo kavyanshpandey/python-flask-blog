@@ -7,4 +7,4 @@
 <br>
 <br>
 
-![alt text](https://github.com/kavyanshpandey/python-flask-blog/pic1.jpg)
+![alt text](https://github.com/kavyanshpandey/python-flask-blog/pic1.png)
