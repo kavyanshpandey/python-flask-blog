@@ -4,6 +4,10 @@
 
 ### Project View.
 
+## Use Cases
+1. User can add any number of blogpost
+2. User can also delete posts by clicking on red button.
+
 <br>
 <br>
 
