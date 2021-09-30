@@ -8,3 +8,14 @@
 <br>
 
 ![alt text](https://github.com/kavyanshpandey/python-flask-blog/blob/master/pic1.png)
+
+<br>
+<br>
+### How to Run.
+  > Clone this repo
+  > Install dependepcies
+  > Run "app.py"
+
+
+<br>
+<br>
