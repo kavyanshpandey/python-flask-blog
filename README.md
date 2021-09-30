@@ -12,9 +12,10 @@
 <br>
 <br>
 ### How to Run.
-  > Clone this repo
-  > Install dependepcies
-  > Run "app.py"
+
+  -> Clone this repo
+  -> Install dependepcies
+  -> Run "app.py"
 
 
 <br>
