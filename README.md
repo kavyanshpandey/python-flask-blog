@@ -1,6 +1,6 @@
 # python-flask-Web-APP
 
-### This is a web application made with python-Flask, and SQLLITE3 used as backend.
+### This is a Web Application made with python-Flask, and SQLLITE3 used as backend.
 
 ### Project View.
 
