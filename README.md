@@ -17,9 +17,9 @@
 <br>
 ### How to Run.
 
-  -> Clone this repo
-  -> Install dependepcies
-  -> Run "app.py"
+  -> Step1: Clone this repo
+  -> Step2: Install dependepcies
+  -> Step3: Run "app.py"
 
 
 <br>
