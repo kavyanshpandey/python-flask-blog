@@ -9,10 +9,10 @@ db = SQLAlchemy(app)
 
 class BlogPost(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    title = db.Column(db.String(100), nullable = False)
-    Content = db.Column(db.Text, nullable = False)
-    Author = db.Column(db.String(20), nullable = False, default = 'Unknown')
-    date_posted = db.Column(db.DateTime, nullable = False, default= datetime.utcnow)
+    title = db.Column(db.String(100))
+    Content = db.Column(db.Text)
+    Author = db.Column(db.String(20))
+    date_posted = db.Column(db.DateTime)
 
     def __repr__(self):
         return 'Blog post ' + str(self.id)
@@ -31,6 +31,10 @@ all_posts = [
 ]
 
 @app.route('/', methods =['GET'])
+def homepage():
+    return render_template('index.html')
+
+@app.route('/welcome', methods =['GET'])
 def homepage():
     return render_template('index.html')
 
