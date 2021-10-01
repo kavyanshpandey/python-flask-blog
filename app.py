@@ -8,10 +8,10 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///posts.db'
 db = SQLAlchemy(app)
 
 class BlogPost(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    title = db.Column(db.String(100), nullable = False)
-    Content = db.Column(db.Text, nullable = False)
-    Author = db.Column(db.String(20), nullable = False, default = 'Unknown')
+    variable_id = db.Column(db.Integer, primary_key=True)
+    variable_title = db.Column(db.String(100), nullable = False)
+    variable_Content = db.Column(db.Text, nullable = False)
+    variable_Author = db.Column(db.String(20), nullable = False, default = 'Unknown')
     date_posted = db.Column(db.DateTime, nullable = False, default= datetime.utcnow)
 
     def __repr__(self):
