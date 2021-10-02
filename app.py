@@ -25,8 +25,8 @@ all_posts = [
     },
     {
         'title': 'Post2',
-        'Content':'This is the content of post 2',
-        # 'Author': ''
+        'Content':'Hi everyone, this is from Divyansh Garg',
+        'Author': 'divigarg'
     }
 ]
 
