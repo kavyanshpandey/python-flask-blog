@@ -8,6 +8,14 @@
 1. User can add any number of blogpost.
 2. User can also delete posts by clicking on red button.
 
+### How to Run.
+
+  -> Clone this repo
+  -> Install dependepcies
+  -> Run "app.py"
+
+### Thanks for coming.Have a good day
+
 <br>
 <br>
 
@@ -15,11 +23,6 @@
 
 <br>
 <br>
-### How to Run.
-
-  -> Clone this repo
-  -> Install dependepcies
-  -> Run "app.py"
 
 
 <br>
