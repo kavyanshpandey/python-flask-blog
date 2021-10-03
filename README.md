@@ -10,7 +10,7 @@
 3. User can also delete posts by clicking on red button.
 
 <br>
-<br>
+<br> 
 
 ![alt text](https://github.com/kavyanshpandey/python-flask-blog/blob/master/pic1.png)
 
@@ -25,3 +25,4 @@
 
 <br>
 <br>
+##Hope you like it ! Feel free to contribute
