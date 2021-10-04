@@ -1,7 +1,6 @@
-
 body {
     font-family: Helvetica;
-    
+
 }
 
 /* div{
@@ -11,3 +10,62 @@ body {
     margin: 2rem auto;
     max-width: 40rem;
 } */
+
+.contact_heading {
+    height: 50px;
+    padding-left: 2vw;
+    padding-bottom: 10vh;
+    font-size: 3em;
+    padding-top: 2vh;
+    font-family: 'Arvo', serif;
+}
+
+@media screen and (min-width: 601px) {
+    .contact_image {
+        width: 25vw;
+        display: block;
+        margin: auto;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .contact_icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4vh;
+        margin-bottom: 10vh;
+    }
+
+    .contact_body .contact_icons .icons {
+        width: 8vw;
+        height: 8vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact_image {
+        width: 100vw;
+        display: block;
+        margin: auto;
+        padding-top: 11vh;
+        padding-bottom: 2vh;
+    }
+
+    .contact_icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4vh;
+        margin-bottom: 10vh;
+    }
+
+    .contact_body .contact_icons .icons {
+        width: 20vw;
+        height: 20vh;
+    }
+
+    .icons {
+        padding-left: 7vw;
+    }
+}
