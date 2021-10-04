@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block head %}
-<title>Do chnages that you want..</title>
+<title>Do changes that you want..</title>
 {% endblock %}
 
 <hr>
@@ -16,7 +16,7 @@
     <input type="text" class="form-control" name='title' id = 'title' value ="{{post.title}}">
     <br>
     <label for="Post">Post</label>
-    <textarea class="form-control" name='Content' rows="3">{{ post.Content }}</textarea>
+    <textarea class="form-control" name='Content' rows="3">{{post.Content}}</textarea>
     
     <br>
     <label for="Author">Author</label>
