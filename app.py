@@ -30,6 +30,26 @@ all_posts = [
     }
 ]
 
+secure_against = [
+    "<script>",
+    "<Script>",
+    "</Script>",
+    "</script>"
+]
+
+#  secure against csrf and sql eg attack
+#just add your kw which you wnt to filter 
+
+def clean(str_data):
+    str_data = str_data.lower()
+
+    for kw in secure_against:
+        if kw in str_data:
+            return True
+        
+    return False
+
+
 @app.route('/', methods =['GET'])
 def homepage():
     return render_template('index.html')
@@ -48,11 +68,13 @@ def addPosts():
         if post_author == '':
             post_author = 'Unknown'
 
-        new_post = BlogPost(title=post_title, Content=post_content, Author=post_author)
+        if clean(post_title) and clean(post_content) and clean(post_author):
+            
+            new_post = BlogPost(title=post_title, Content=post_content, Author=post_author)
 
-        db.session.add(new_post)
+            db.session.add(new_post)
 
-        db.session.commit()
+            db.session.commit()
 
         return redirect('/posts')
 
