@@ -19,7 +19,10 @@
 ### How to Run.
 
   -> Clone this repo  
-  -> Install dependepcies  
+  -> Install dependepcies 
+  ```bash
+      - pip install -r requirements.txt
+  ```
   -> Run "app.py"
 
 
