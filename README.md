@@ -18,8 +18,8 @@
 <br>
 ### How to Run.
 
-  -> Clone this repo
-  -> Install dependepcies
+  -> Clone this repo  
+  -> Install dependepcies  
   -> Run "app.py"
 
 
