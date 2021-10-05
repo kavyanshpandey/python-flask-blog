@@ -34,6 +34,10 @@ all_posts = [
 def homepage():
     return render_template('index.html')
 
+@app.route('/aboutus', methods =['GET'])
+def aboutpage():
+    return render_template('about.html')
+
 @app.route('/contactus', methods=['GET'])
 def contact():
     return render_template('contact.html')    
