@@ -25,3 +25,5 @@
 
 <br>
 <br>
+Thanks for visiting.
+Have a Good day
