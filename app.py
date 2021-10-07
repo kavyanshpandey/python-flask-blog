@@ -2,12 +2,14 @@ from flask import Flask,jsonify, render_template, request,redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
-app = Flask(__name__)
+app = Flask(__name__) 
+#configuring DataBase schema
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///posts.db'
 db = SQLAlchemy(app)
 
-class BlogPost(db.Model):
+class BlogPost(db.Model): 
+#constructing storage models for id,title,content,author and date of post attributes
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100), nullable = False)
     Content = db.Column(db.Text, nullable = False)
@@ -103,9 +105,11 @@ def deletePost(id):
 
 
 @app.route('/posts/edit/<int:id>', methods=['GET','POST'])  
+#   Method to edit the post
 def editPost(id):
     post_id = BlogPost.query.get_or_404(id)
-    if request.method == 'POST':
+    if request.method == 'POST': 
+ #to get details of title,content and author
         post_id.title = request.form['title']
         post_id.Content = request.form['Content']
         post_id.Author = request.form['Author']
