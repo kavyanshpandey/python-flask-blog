@@ -25,8 +25,13 @@ all_posts = [
     },
     {
         'title': 'BlogPost2',
-        'Content':'This is the content of BlogPost2',
-        'Author': 'Nidhi'
+        'Content':'This is the content of BlogPost2 ',
+        'Author': 'Nidhi '
+    },
+    {
+        'title': 'This is the content of post 3',
+        'Content':'This is the content of post 3 ',
+        #'Author': 'Nidhi '
     }
 ]
 
