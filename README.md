@@ -2,7 +2,8 @@
 
 ### This is a Web Application made with python-Flask, and SQLLITE3 used as backend.
 
-### Project View
+### Project View 
+ ------------------------------
 
 ## Use Cases
 1. User can add any number of blogpost.
