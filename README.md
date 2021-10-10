@@ -6,8 +6,10 @@
 
 ## Use Cases
 1. User can add any number of blogpost.
-2. User an also edit their blog
-3. User can also delete posts by clicking on red button.
+2. User an also edit their blog.
+3. user can add photos to their blog.
+4. user can add videos to their blog.
+5. User can also delete posts by clicking on red button.
 
 <br>
 <br>
