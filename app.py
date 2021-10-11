@@ -2,7 +2,9 @@ from flask import Flask, jsonify, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
-app = Flask(__name__)
+
+app = Flask(__name__) 
+#configuring DataBase schema
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///posts.db'
 db = SQLAlchemy(app)
@@ -80,6 +82,7 @@ def posts():
         post_content = request.form['Content']
         post_author = request.form['Author']
 
+        #if post has no author
         if post_author == '':
             post_author = 'Unknown'
 
@@ -108,7 +111,11 @@ def deletePost(id):
 @app.route('/posts/edit/<int:id>', methods=['GET', 'POST'])
 def editPost(id):
     post_id = BlogPost.query.get_or_404(id)
-    if request.method == 'POST':
+    
+    
+    
+    if request.method == 'POST': 
+ #to get details of title,content and author using the below 3 codes
         post_id.title = request.form['title']
         post_id.Content = request.form['Content']
         post_id.Author = request.form['Author']
@@ -124,3 +131,4 @@ def editPost(id):
 if __name__ == "__main__":
     PORT = 5000
     app.run(debug=True, port=PORT)
+#now the port number = 5000
