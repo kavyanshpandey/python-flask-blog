@@ -8,6 +8,7 @@
 1. User can add any number of blogpost.
 2. User an also edit their blog
 3. User can also delete posts by clicking on red button.
+4. User can add upto infinite Blogspots
 
 <br>
 <br>
