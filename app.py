@@ -23,12 +23,12 @@ class BlogPost(db.Model):
 all_posts = [
     {
         'title': 'Post1',
-        'Content': 'This is the content of post 1',
-        'Author': 'kavyansh'
+        'Content': 'CONTENT OF POST1',
+        'Author': 'KAVYANSH'
     },
     {
         'title': 'Post2',
-        'Content': 'This is the content of post 2',
+        'Content': 'CONTENT OF POST 2',
         # 'Author': ''
     }
 ]
