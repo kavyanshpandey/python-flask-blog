@@ -123,4 +123,4 @@ def editPost(id):
 
 if __name__ == "__main__":
     PORT = 5000
-    app.run(debug=True, port= PORT)
+    app.run(debug=True, port=PORT)
