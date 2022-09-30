@@ -16,11 +16,22 @@
 
 <br>
 <br>
+
 ### How to Run.
 
-  -> Clone this repo  
-  -> Install dependepcies  
-  -> Run "app.py"
+* Clone the project
+    ```bash
+    git clone https://github.com/kavyanshpandey/python-flask-blog
+    ```
+* Installing required files
+    ```bash
+    pip install requirements.txt
+    ```
+
+* Starting the app
+    ```bash
+    python app.py
+    ```
 
 
 <br>
