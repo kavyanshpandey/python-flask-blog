@@ -1,6 +1,7 @@
 # python-flask-Web-APP
 
-### This is a Web Application made with python-Flask, and SQLLITE3 used as backend.
+### This is a Web Application made with python-Flask, and SQLLITE3 used as backend. You can add your blog here and also you can delete it by clicking on the red button.
+See the snapshot added for preview.
 
 ### Project View
 
@@ -8,13 +9,11 @@
 1. User can add any number of blogpost.
 2. User can also delete posts by clicking on red button.
 
-### How to Run.
+### How to Run
 
   -> Clone this repo
   -> Install dependepcies
   -> Run "app.py"
-
-### Thanks for coming.Have a good day
 
 <br>
 <br>
@@ -27,3 +26,9 @@
 
 <br>
 <br>
+
+# Feel free to Contribute.
+
+### Thank you!
+
+# Have a Great Day
