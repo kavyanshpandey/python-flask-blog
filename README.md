@@ -7,7 +7,8 @@ See the snapshot added for preview.
 
 ## Use Cases
 1. User can add any number of blogpost.
-2. User can also delete posts by clicking on red button.
+2. User an also edit their blog
+3. User can also delete posts by clicking on red button.
 
 ### How to Run
 
@@ -22,6 +23,12 @@ See the snapshot added for preview.
 
 <br>
 <br>
+
+### How to Run.
+
+  -> Clone this repo  
+  -> Install dependepcies  
+  -> Run "app.py"
 
 
 <br>
