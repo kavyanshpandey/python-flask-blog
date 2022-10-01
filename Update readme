@@ -1,0 +1,5 @@
+8,6 +8,7 @@
+1. User can add any number of blogpost.
+2. User an also edit their blog
+3. User can also delete posts by clicking on red button.
+4. Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. 
