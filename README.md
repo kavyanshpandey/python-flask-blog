@@ -16,12 +16,12 @@
 
 <br>
 <br>
-### How to Run.
 
-  -> Clone this repo  
-  -> Install dependepcies  
-  -> Run "app.py"
+### How to Run
 
+> 1. Clone this repo  
+> 2. Install dependepcies  
+> 3. Run "app.py"
 
 <br>
 <br>
