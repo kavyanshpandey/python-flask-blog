@@ -29,6 +29,11 @@ all_posts = [
     {
         'title': 'Post2',
         'Content': 'This is the content of post 2',
+        'Author': 'Hitarth'
+    },
+    {
+        'title': 'Post3',
+        'Content': 'This is the content of post 3',
         # 'Author': ''
     }
 ]
