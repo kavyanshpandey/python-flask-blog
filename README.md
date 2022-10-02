@@ -5,8 +5,8 @@
 ### Project View
 
 ## Use Cases
-1. User can add any number of blogpost.
-2. User an also edit their blog
+1. User can add any number of blogpost by clicking the green button on top-right.
+2. User an also edit their blog.
 3. User can also delete posts by clicking on red button.
 
 <br>
