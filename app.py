@@ -93,12 +93,8 @@ def posts():
         return redirect('/posts')
 
     else:
-        # sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: blog_post
-        try:
-            all_posts = BlogPost.query.order_by(BlogPost.date_posted).all()
-            return render_template('posts.html', posts=all_posts)
-        except Exception:
-            return render_template('posts.html', all_posts)
+        all_posts = BlogPost.query.order_by(BlogPost.date_posted).all()
+        return render_template('posts.html', posts=all_posts)
 
 
 @app.route('/posts/delete/<int:id>', methods=['GET', 'POST'])
@@ -126,5 +122,6 @@ def editPost(id):
 
 
 if __name__ == "__main__":
+    db.create_all()
     PORT = 5000
     app.run(debug=True, port=PORT)
