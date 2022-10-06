@@ -1,14 +1,14 @@
-from flask import Flask, jsonify, render_template, request, redirect
+from flask import Flask, jsonify, render_template, request, redirect #importing necessary libraries 
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
-app = Flask(__name__)
+app = Flask(__name__)        #initializing app
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///posts.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///posts.db'         #configure database
 db = SQLAlchemy(app)
 
 
-class BlogPost(db.Model):
+class BlogPost(db.Model):                                       #model for data table
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100), nullable=False)
     Content = db.Column(db.Text, nullable=False)
@@ -19,8 +19,8 @@ class BlogPost(db.Model):
     def __repr__(self):
         return 'Blog post ' + str(self.id)
 
-
-all_posts = [
+#hard coded data array
+all_posts = [ 
     {
         'title': 'Post1',
         'Content': 'This is the content of post 1',
@@ -33,7 +33,7 @@ all_posts = [
     }
 ]
 
-
+#routes
 @app.route('/', methods=['GET'])
 def homepage():
     return render_template('index.html')
