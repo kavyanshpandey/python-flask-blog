@@ -6,8 +6,8 @@
 
 ## Use Cases
 1. User can add any number of blogpost.
-2. User an also edit their blog
-3. User can also delete posts by clicking on red button.
+2. User can also edit their blogs using the Edit Button.
+3. User can also delete posts by clicking on red button (Delete).
 
 <br>
 <br>
@@ -16,12 +16,15 @@
 
 <br>
 <br>
-### How to Run.
+## How to Run.
 
   -> Clone this repo  
   -> Install dependepcies  
   -> Run "app.py"
 
+# Try to provide a suitable title for your blog because that is what catches the eye.
+
+# To make it appear more like a blogging website, the positioning of the author name and the exact timestamp is adjusted on the top of the post.
 
 <br>
 <br>
