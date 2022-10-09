@@ -18,9 +18,26 @@
 <br>
 ### How to Run.
 
-  -> Clone this repo  
-  -> Install dependepcies  
-  -> Run "app.py"
+ ## **Steps to Run**
+
+### -> Step 1: Clone this repo  
+
+- ![Clone](clone.png)
+- Click on code and then copy the link
+- Use Following command to clone this repo:
+
+  > git clone <https://github.com/kavyanshpandey/python-flask-blog.git>
+
+### ->Step 2: Install dependepcies  
+
+- To install dependepcies use following command:
+
+  > pip install requirements.txt
+  
+### -> Step 3: Run "app.py"
+
+- To run the app click on run button
+- ![Run app](run.png)
 
 
 <br>
