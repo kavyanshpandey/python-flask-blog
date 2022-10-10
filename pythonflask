@@ -1,0 +1,4 @@
+Why flask?
+I wanted to be able to launch a blog quickly with python in the most simple way that I could without using any of the usual tools like wordpress of blogger. After doing some research I came across flask_flatpages and flask_frozen and set to work.
+
+flask_flatpages allows us to write our blog posts in .md files, allowing us to focus on the content rather than html tags, while flask_frozen 'flattens' our website into static .html files which we can upload to any host without and hassle. Since we use git to update our repository adding a new blog post is as simple as writing out post in a new .md file, freezing the app, and updating the repository.
