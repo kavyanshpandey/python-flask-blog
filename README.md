@@ -16,7 +16,7 @@
 
 <br>
 <br>
-### How to Run.
+ ### How to Run.
 
   -> Clone this repo  
   -> Install dependepcies  
