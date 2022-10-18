@@ -1,7 +1,7 @@
 # python-flask-Web-APP
 
 ### This is a Web Application made with python-Flask, and SQLLITE3 used as backend.
-
+### Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.
 ### Project View
 
 ## Use Cases
