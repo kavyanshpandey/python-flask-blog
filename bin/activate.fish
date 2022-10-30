@@ -7,6 +7,8 @@ function _bashify_path -d "Converts a fish path to something bash can recognize"
     for path_part in $fishy_path[2..-1]
         set bashy_path "$bashy_path:$path_part"
     end
+    # add coment pls
+    
     echo $bashy_path
 end
 
