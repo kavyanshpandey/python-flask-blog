@@ -121,6 +121,9 @@ def editPost(id):
         return render_template('edit.html', post=post_id)
 
 
+with app.app_context():
+    db.create_all()
+
 if __name__ == "__main__":
     PORT = 5000
     app.run(debug=True, port=PORT)
