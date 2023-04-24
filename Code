@@ -1,0 +1,33 @@
+pip install flask
+pip install sqlmodel
+from flask import Flask
+
+
+def create_app():
+    app = Flask(__name__)
+
+    return app
+    from flask import Blueprint, request
+
+post_pages = Blueprint("posts", __name__)
+
+
+@post_pages.get("/post/<string:title>")
+def display_post(title: str):
+    return "Display post page."
+
+
+@post_pages.route("/post/", methods=["GET", "POST"])
+def create_post():
+    if request.method == "POST":
+        pass
+    return "Create post page."
+   from flask import Flask
++from routes.post import post_pages
+
+
+def create_app():
+    app = Flask(__name__)
++   app.register_blueprint(post_pages)
+
+    return app
