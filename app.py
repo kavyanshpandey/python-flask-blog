@@ -24,7 +24,7 @@ all_posts = [
     {
         'title': 'Post1',
         'Content': 'This is the content of post 1',
-        'Author': 'kavyansh'
+        'Author': 'Kavyansh Pandey'
     },
     {
         'title': 'Post2',
@@ -120,7 +120,7 @@ def editPost(id):
     else:
         return render_template('edit.html', post=post_id)
 
-
+# Main function
 if __name__ == "__main__":
     PORT = 5000
     app.run(debug=True, port=PORT)
